@@ -1,0 +1,18 @@
+.image {
+    width: 200px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.text{
+    font-size: 16px;
+    width: 500px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 1px 10px rgb(0,0,0,0.25);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+}

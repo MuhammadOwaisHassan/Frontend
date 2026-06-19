@@ -1,0 +1,44 @@
+div{
+    text-align: center;
+}
+
+.google{
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input{
+    box-shadow: 0 1px 6px rgb(0,0,0,0.2);
+    margin-bottom: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 500px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 25px;
+    border: none;
+}
+
+.google-button{
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.feeling-lucky{
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+}
