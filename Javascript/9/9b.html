@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>9b</title>
+  </head>
+  <body>
+    <button>9a</button>
+    <button class="js-second-button">9b</button>
+
+    <script>
+      console.log(document.querySelector('button'));
+      const modifiedButton = document.querySelector('.js-second-button').innerHTML = '9b done!';
+      console.log(modifiedButton);
+    </script>
+  </body>
+</html>
