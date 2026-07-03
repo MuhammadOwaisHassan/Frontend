@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>11c</title>  
+    </head>
+    <body>
+        <script>
+            function arraySwap(array){
+                const firstIndex = array[0];
+                const lastIndex = array[array.length - 1];
+
+                array[0] = lastIndex;
+                array[array.length-1] = firstIndex;
+                return array;
+            }
+            console.log(arraySwap(['a','b','c','d']));
+        </script>
+    </body>
+</html>

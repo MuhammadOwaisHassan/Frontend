@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>11i</title>
+  </head>
+  <body>
+    <script>
+        function minMax(nums){
+            let result = {
+                min : nums[0],
+                max : nums[0]
+            };
+
+            for(let i=0; i<nums.length; i++){
+                const value = nums[i];
+
+                if(value<result.min){
+                    result.min = value;
+                }
+
+                if(value>result.max){
+                    result.max = value;
+                }
+            }
+            return result;
+        }
+        console.log(minMax([-5,-2,0,1,2,3]));
+        console.log(minMax([]));
+    </script>
+  </body>
+</html>
